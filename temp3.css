@@ -1,0 +1,193 @@
+.part1{
+    margin-left: 0px;
+    background-image: url('bgimg.jpeg');
+    position: absolute;
+    /* z-index: -1; */
+    width: 1420px;
+    height: 1000px;
+    /* opacity: 1.9; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.U{
+    font-size: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0%;
+    color: white;
+    padding-top: 20px;
+    padding-left: 4px;
+}
+.line{
+    background-color:  rgba(231, 247, 6, 0.901);
+    width: 55px;
+    height: 2vh;
+    position: relative;
+    left: 10%;
+    top: 15%;
+}
+.part2{
+   background-color:  rgba(231, 247, 6, 0.901);
+   /* margin-right: 20%; */
+   padding-bottom: 6%;
+   width: 220px;
+   position: relative;
+   left: 75%;
+   text-align: right;
+   margin-left: 900px;
+   bottom: 25px;
+}
+
+.cor{
+    font-weight: bolder;
+    font-size: 49;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    /* margin-right: 50px; */
+    padding-right: 60px;
+    margin-left: 10px;
+    position: relative;
+    right: 49%;
+}
+.part3{
+    font-size: 30px;
+    color: white;
+    margin-top: 220px;
+}
+.blue{
+    backface-visibility: -0.6;
+    /* opacity: 0.7; */
+    height: 999px;
+    width: 1420px;
+    background-color: rgba(20, 120, 137, 0.737)
+}
+.inn{
+    font-weight: bolder;
+    font-size: 90px;
+    letter-spacing: 50px;
+    margin-top: 21%;
+    color: white;
+}
+.our{
+    font-weight: bolder;
+    word-spacing: 35px;
+    letter-spacing: 11px;
+    margin-right: 10px;
+    color: white;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-left: 430px;
+    margin-top: 400px;
+    bottom: 290px;
+}
+.lemonfont{
+    text-align: center;
+    color:  rgba(231, 247, 6, 0.901);
+    font-size:100;
+    margin-top: 3%;
+}
+.font{
+    color:rgb(4, 194, 219);
+}
+.icon{
+    margin-bottom: 80%;
+}
+.map{
+    width: 30px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.phone{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-left: 500px;
+    bottom: 4%;
+    margin-top: -40px;
+}
+.mail{
+    width: 30px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.browser{
+    width: 30px;
+    height: 30px;
+    margin-left: 500px;
+    margin-top: -35px;
+
+}
+.L{
+    margin-left: 10%;
+    position: relative;
+    bottom: 70%;
+    margin-top: -25px;
+
+}
+.N{
+    margin-left: 40%;
+    position: relative;
+    bottom: 70%;
+    margin-top: -30px;
+
+}
+.C{
+    margin-left: 10%;
+    position: relative;
+    bottom: 70%;
+    margin-top: -25px;
+}
+.W{
+    margin-left: 40%;
+    position: relative;
+    bottom: 70%;
+    margin-top: -35px;
+}
+
+/* .fotter::after, .fotter::before{
+    height: 130px;
+    content: ' ';
+    position: absolute;
+
+} */
+.fotter::after {
+    right: 0;
+    background-color:   rgba(231, 247, 6, 0.901);
+}
+.fotter::before {
+    left: 0;
+    background-color:  rgba(231, 247, 6, 0.901);
+}
+.fotter::after, .fotter::before {
+    height:150px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 3%;
+    margin-top: 1540px;
+    .fotter {
+        height:30px;
+        width:10%;
+        position:relative;
+        background:white;
+    }
+}
+.dot{
+    margin-left: 60%;
+    margin-top: -10px;
+    padding-bottom: -400px;
+}
+/* .fotterbox2{
+    height: 130px;
+    width: 50px;
+    margin-top: 0px;
+    right: 0%;
+    background-color: rgb(255, 255, 62);
+    position: relative;
+    top: 10%;
+} */
